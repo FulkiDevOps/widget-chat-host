@@ -35,7 +35,7 @@
         position: fixed;
         bottom: 20px;
         right: 20px;
-        width: 350px;
+        width: 400px;
         height: 500px;
         background: white;
         border-radius: 10px;
@@ -74,7 +74,7 @@
         messages.forEach(m => {
             const div = document.createElement("div");
             div.style.cssText = `
-                max-width:80%;
+                max-width:85%;
                 padding:8px 12px;
                 border-radius:15px;
                 line-height:1.4;
